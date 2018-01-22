@@ -47,7 +47,7 @@ For `es6` enviroment and above use content of `.eslintrc.json` from [api-eslint/
 },
 ```
 
-After saving the changes run the script to format the code and see error and warning.
+After saving the changes run the script to format the code and see error and warning, for fix.
 
 > `npm run format && npm run lint`
 
