@@ -32,6 +32,6 @@ Configuration step for each individual projects.
 
 3. Create `.eslintrc.json` file inside the project directory and paste the content accordingly below inside the file
 
-For project using `es5` and below use content of `.eslintrc.json` from [api-eslint-es5/.eslintrc.json](api-eslint-es5/.eslintrc.json)
+For project using `es5` and below use content of `.eslintrc.json` from [api-eslint-es5/](api-eslint-es5/.eslintrc.json)
 
-For `es6` enviroment and above use content of `.eslintrc.json` from [api-eslint/.eslintrc.json](api-eslint/.eslintrc.json)
+For `es6` enviroment and above use content of `.eslintrc.json` from [api-eslint/](api-eslint/.eslintrc.json)
