@@ -35,3 +35,5 @@ Configuration step for each individual projects.
 For project using `es5` and below use content of `.eslintrc.json` from [api-eslint-es5/](api-eslint-es5/.eslintrc.json)
 
 For `es6` enviroment and above use content of `.eslintrc.json` from [api-eslint/](api-eslint/.eslintrc.json)
+
+4. Create `.prettierrc` file inside project directory and update the content with the content from file [.prettierrc](.prettierrc)
