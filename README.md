@@ -1,6 +1,6 @@
 # CW-ESLINT-CONFIG
 
-`(ESLINT && PRETTIER) === "CODE QUALITY"`
+`(ESLINT && PRETTIER) === "Automatically Curing the formatting fatigue with the style guidelines"`
 
 ## API Development:
 
@@ -37,3 +37,18 @@ For project using `es5` and below use content of `.eslintrc.json` from [api-esli
 For `es6` enviroment and above use content of `.eslintrc.json` from [api-eslint/](api-eslint/.eslintrc.json)
 
 4. Create `.prettierrc` file inside project directory and update the content with the content from file [.prettierrc](.prettierrc)
+
+5. Add the below script inside the `package.json` file.
+
+```json
+"scripts": {
+  "lint": "eslint '**/*.{js,}'",
+  "format": "prettier --write '**/*.{js,}'"
+},
+```
+
+After saving the changes run the script to format the code and see error and warning.
+
+> `npm run format && npm run lint`
+
+> Note: Editor like `vscode` and `atom` etc can be configured to lint and format the code automatically on save
