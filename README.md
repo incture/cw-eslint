@@ -19,7 +19,8 @@ For other supported environment check `ESlint` [Specifying Environments](https:/
 Configuration step for each individual projects.
 
 1. Install the following plugin as dev-dependency
-   `npm install --save-dev babel-eslint eslint-config-prettier prettier`
+
+>`npm install --save-dev babel-eslint eslint-config-prettier prettier`
 
 2. On Linux/OSX run
 
