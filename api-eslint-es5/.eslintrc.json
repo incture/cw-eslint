@@ -4,7 +4,7 @@
     "mocha": true,
     "mongo": true
   },
-  "extends": "airbnb-base/legacy",
+  "extends": ["airbnb-base/legacy", "prettier"],
   "parser": "babel-eslint",
   "rules": {
     "func-names": ["error", "never"],
@@ -18,11 +18,6 @@
     "no-undefined": "error",
     "semi": ["warn", "always"],
     "no-param-reassign": "warn",
-    "space-in-parens": [2, "always"],
-    "template-curly-spacing": [2, "always"],
-    "array-bracket-spacing": [2, "always"],
-    "object-curly-spacing": [2, "always"],
-    "computed-property-spacing": [2, "always"],
     "consistent-return": "warn",
     "one-var": "warn",
     "comma-dangle": "warn",
