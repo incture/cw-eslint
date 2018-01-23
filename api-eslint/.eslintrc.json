@@ -41,7 +41,6 @@
       }
     ],
     "complexity": [1, 5],
-    "prefer-const": 1,
     "arrow-body-style": "warn"
   }
 }
